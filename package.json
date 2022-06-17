@@ -1,0 +1,14 @@
+{
+  "name": "contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@confluxfans/contracts": "^0.2.5",
+    "@openzeppelin/contracts": "^4.4.1"
+  },
+  "scripts": {
+    "build": "cfxtruffle compile",
+    "deploy": "cfxtruffle deploy"
+  }
+}
