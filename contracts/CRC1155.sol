@@ -7,6 +7,17 @@ import "@confluxfans/contracts/InternalContracts/InternalContractsHandler.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
 /**
+
+  ___              _  _      _
+ | _ \_  _ ___ _ _| || |_  _| |__
+ |  _/ || / -_) '_| __ | || | '_ \
+ |_|  \_,_\___|_| |_||_|\_,_|_.__/
+
+ https://github.com/puerhub/contract
+*/
+
+
+/**
     StringsHelper to convert physical id to uppercase.
 
     字符串类，用于将实物映射 Id 转换为大写
@@ -289,7 +300,7 @@ InternalContractsHandler
         }
     }
 
-    // Optional functions：The feature code can only be set once for each id, and then it can never be change again
+    // Optional functions: The feature code can only be set once for each id, and then it can never be change again
     // 可选函数 设置一次 token 的特征码
     function setTokenFeatureCode(uint256 tokenId, uint256 featureCode) public virtual
     {
