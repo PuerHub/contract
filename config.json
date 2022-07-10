@@ -1,0 +1,21 @@
+{
+  "main": "./contracts/CRC1155.sol",
+  "deploy": "./build/contracts/CRC1155.json",
+  "framework": "cfxtruffle",
+  "npmClient": "yarn",
+  "compilers": {
+    "solc": "0.8.6",
+    "cfxtruffle": "",
+    "evmVersion": "berlin",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    }
+  },
+  "linter": "solhint",
+  "editor": {
+    "fontFamily": "Hack",
+    "fontSize": "13px",
+    "ligatures": false
+  }
+}
