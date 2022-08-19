@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@confluxfans/contracts": "^0.2.5",
+    "@confluxfans/contracts": "^0.3.0",
     "@openzeppelin/contracts": "^4.4.1"
   },
   "scripts": {
